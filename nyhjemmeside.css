@@ -1,0 +1,194 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+  padding:0;
+  font-family: Arial;
+}
+
+  nav{
+    width:100%;
+    background: #000000;
+    overflow: hidden;
+    position:fixed;
+    top:0;
+  }
+
+  /* Logo */
+  .logo img{
+      margin-top: 0px;
+      margin-left: 20px;
+      float: left;
+      width: 150px;
+      height: auto;
+  }
+
+
+  /* Baggrundsbillede */
+  #example1 {
+    background-image: url(abstract.jpg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+  }
+
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+li{
+  float: right;
+
+
+}
+a{
+  padding:5px;
+  width: 100px;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  }
+
+  /* Home Welcome to my universe text */
+#section1{
+    height: 900px;
+    background: #000000;
+    color: rgb(255, 142, 50);
+    display: inline-block;
+    width: 100%;
+    background-image: url("cover2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    }
+
+/* About me */
+#section2{
+    height: 700px;
+    background:#ffffff;
+    color:#000000;
+    display: inline-block;
+    width: 100%;
+    margin-top: 1px;
+    margin-right: 50px;
+    text-align: center;
+    }
+
+
+
+    /* Showcase forside billede */
+      #showcase{
+        min-height: 400px;
+        background: url('../img/icebillede.jpg') no-repeat 0 -500px;
+        text-align:center;
+        color: #000000;
+        }
+
+    }
+/* My portfolio*/
+#section3{
+    height: 100px;
+    background: #ffffff;
+
+    color: #000000;
+    display: inline-block;
+    width: 100%;
+    align: center;
+    }
+
+
+/* Contact */
+#section4{
+    height: 400px;
+    background: #000000;
+    color: #ffffff;
+    display: inline-block;
+    width: 100%;
+
+    }
+    h1{
+      margin: 100px;
+      text-align: center;
+      padding: 0;
+    }
+    div.gallery {
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+    }
+
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat", sans-serif;
+}
+
+/* Social Media */
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 17px;
+  text-align: left;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+
+
+
+/* Footer*/
+
+    footer{
+              padding: 20px;margin-top: 20px;
+              margin-top: 20px;
+              color: #ffffff;
+              width: 100%;
+              background-color: #000000;
+              text-align: center;
+            }
